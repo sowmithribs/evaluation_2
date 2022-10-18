@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+:root {
+    --background: linear-gradient(180deg, #20bbff 0%, #0e85ff 100%);
+    --shadow: 0 8px 18px 10px rgba(0, 0, 0, 0.02);
+}
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    min-height: 98vh;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100vh; */
+    min-height: 98vh;
+
+}

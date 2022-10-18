@@ -1,0 +1,14 @@
+.loginContainer {
+    display: flex;
+    flex-direction: row;
+    width: 839px;
+    border-radius: 15px;
+    background: var(--background);
+    box-shadow: var(--shadow);
+
+}
+@media only screen and (min-width: 768px) {
+    .logincontainer{
+            flex-direction: column;
+    }
+}

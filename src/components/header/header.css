@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: var(--dashboard-nav-back-color);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 104px;
+    margin-top: 31px;
+    margin-left: 109px;
+}
+
+.logo {
+    position: relative;
+    margin-left: 109px;
+}
+
+.options {
+    margin-right: 100px;
+}
+
+.options img {
+    cursor: pointer;
+}

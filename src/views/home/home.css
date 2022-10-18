@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+.dashboard {
+        height: 90%;
+        width: 87%;
+        position: relative;
+        margin: auto;
+}
+
+.container-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 76.9vh;
+}
+
+.container-add-files {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F7FB;
+    border-radius: 107.5px;
+    height: 215px;
+    width: 819px;
+}
+
+.addfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addfile p {
+    font-size: 26px;
+    width: 406px;
+    text-align: center;
+    color: #3C4857;
+}
