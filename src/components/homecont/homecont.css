@@ -55,3 +55,141 @@
 ::placeholder{
     color: #A5A5A5;
 }
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal,
+.overlay {
+    width: 70vw;
+    height: 100vh;
+    top: 14%;
+    right: 12%;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+.addsite {
+    height: 41px;
+    width: 119px;
+    color: #3C4857;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 41px;
+}
+
+.url {
+    height: 70px;
+    margin-top: 30px;
+}
+
+.url-title {
+    height: 24px;
+    width: 34px;
+    color: #949CA5;
+    font-family: "Open Sans";
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.urlinput {
+    box-sizing: border-box;
+    height: 29px;
+    width: 535px;
+    border: 1px solid #F5F7FB;
+    border-radius: 4px;
+    background-color: #F5F7FB;
+    margin-top: 5px;
+    outline: none;
+}
+.sitename {
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.siteinput {
+    box-sizing: border-box;
+    height: 29px;
+    width: 305px;
+    border: 1px solid #F5F7FB;
+    border-radius: 4px;
+    background-color: #F5F7FB;
+    margin-top: 11px;
+    outline: none;
+}
+.bigcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.notes {
+    height: 70px;
+}
+.submitbtn {
+    box-sizing: border-box;
+    height: 46px;
+    width: 150px;
+    border: 1px solid #0E85FF;
+    border-radius: 4px;
+    margin-left: 300px;
+}
+
+
+
+.resabtn {
+    display: flex;
+}
+.savebtn {
+    float: right;
+    box-sizing: border-box;
+    height: 46px;
+    width: 150px;
+    background-color: #0E85FF;
+    border-radius: 4px;
+    margin-left: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
+.downarrow {
+    position: absolute;
+    top: 192px;
+    left: 623px;
+}
+

@@ -3,12 +3,14 @@
     flex-direction: row;
     width: 839px;
     border-radius: 15px;
-    background: var(--background);
-    box-shadow: var(--shadow);
+    background: linear-gradient(180deg, #20BBFF 0%, #0E85FF 100%);
+    box-shadow: 0 8px 18px 10px rgba(0, 0, 0, 0.02);
 
 }
-@media only screen and (min-width: 768px) {
-    .logincontainer{
-            flex-direction: column;
-    }
+@media only screen and (max-width:840px) {
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
+}  ;

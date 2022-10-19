@@ -1,0 +1,21 @@
+.background {
+    box-sizing: border-box;
+    height: 44px;
+    width: 513px;
+    border: 1px solid #97E6B8;
+    border-radius: 2px;
+    background-color: #CBF3DC;
+    margin: 0px 169px 25px 157px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.successtext{
+    height: 19px;
+    width: 750px;
+    color: #2ECC71;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 17px;
+    padding: 6% 0% 10% 5%;
+}

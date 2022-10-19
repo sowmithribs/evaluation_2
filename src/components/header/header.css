@@ -5,7 +5,7 @@
     background-color: var(--dashboard-nav-back-color);
 }
 
-.nav {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,15 +14,15 @@
     margin-left: 109px;
 }
 
-.logo {
+.logopass {
     position: relative;
     margin-left: 109px;
 }
 
-.options {
+/* .choice {
     margin-right: 100px;
 }
 
-.options img {
+.choice img {
     cursor: pointer;
-}
+} */

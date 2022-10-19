@@ -5,8 +5,8 @@ const Header = () => {
       <>
     <div>
       <header className="header">
-                <div className="nav">
-                    <div className="logo">
+                <div className="navbar">
+                    <div className="logopass">
                         <img src={require('../../assets/Images/pass_logo.png')} alt="" />
                     </div>
                     <div className="options">

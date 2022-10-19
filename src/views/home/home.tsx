@@ -6,6 +6,7 @@ import './home.css'
 
 const Home = () => {
     return (
+        <div className="mainconatiner">
         <div className='dashboard'>
         <Sidebar/>
         <Header/>
@@ -20,7 +21,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
+            </div>
     )
 }
 
